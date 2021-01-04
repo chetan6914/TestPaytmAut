@@ -14,9 +14,11 @@ public class Reporter {
         soft = new SoftAssertions();
     }
 
+    
     public static void assertTest(Object actual, Object expected)
     {
         soft.assertThat(actual).isEqualTo(expected);
+        // Test commit message 
     }
 
     public static void assertThat(Object actual, Object expected)

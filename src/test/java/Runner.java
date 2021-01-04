@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
         features = {"src\\test\\resources\\"},
         format = {"pretty", "html:target/Destination"} ,
 //plugin = {"org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter"},
-        tags={"@API"}
+        tags={"@API"},
+        monochrome = true
 //        glue={"java","resources"}
 
 
